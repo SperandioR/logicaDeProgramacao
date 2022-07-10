@@ -1,0 +1,37 @@
+Algoritmo "Ex_condicional_baskara"
+
+
+Var
+
+   a, b, c, x1, x2, delta: real
+
+Inicio
+   //entrada dos dados.
+   escreva("Coeficiente a: ")
+   leia(a)
+
+   escreva("Coeficiente b: ")
+   leia(b)
+
+   escreva("Coeficiente c: ")
+   leia(c)
+
+   delta <- Exp(b, 2) - 4 * a * C
+
+   // Criando a estrutura condicional
+
+   se (a = 0) ou (delta < 0) então
+      escreval("Esta equação não possui raizes reais!")
+   senão
+      x1 <-  (-b + RaizQ(delta)) / (2 * a)
+      x2 <-  (-b - RaizQ(delta)) / (2 * a)
+      escreval("x1 = ", x1:6:4)
+      escreval("x2 - ", x2:6:4)
+   fimse
+
+
+Fimalgoritmo
+
+// REGRA: se a estrutura for verdaderia V:executa o bloco de comandos.
+// se a estrutura for F: pula o bloco de comandos.
+// fimse: fim da estrutura condicional.

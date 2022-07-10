@@ -1,0 +1,25 @@
+Algoritmo "Ex_medidas"
+
+
+Var
+   A, B, C, areaQuadrado, areaTriangulo, areaTrapezio:real  //variáveis
+
+
+Inicio
+   escreva("Digite a medida A:")
+   leia(A)
+   escreva("Digite a medida B:")
+   leia(B)
+   escreva("Digite a medida C:")
+   leia(C)
+
+   areaQuadrado <- A * A
+   áreaTriângulo <- (A * B) / 2         //espressão aritimética
+   areaTrapezio <- (A + B) / 2 * C
+
+   escreval("QUADRADO = ", areaQuadrado:10:4)
+   escreval("TRIÂNGULO = ", areaTriangulo:10:4)
+   escreval("TRAPEZIO = ", areaTrapezio:10:4)
+
+
+Fimalgoritmo

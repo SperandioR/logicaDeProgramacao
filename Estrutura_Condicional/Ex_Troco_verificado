@@ -1,0 +1,31 @@
+Algoritmo "Ex_Troco_verificado"
+
+Var
+   precoProduto, valorRecebido, valorTroco, valorResto:real
+   quantidadeComprada:inteiro
+
+
+Inicio
+
+   escreva("Preço unitário do Produto:")
+   leia(precoProduto)
+
+   escreva("Quantidade comprada:")
+   leia(quantidadeComprada)
+
+   escreva("Dinheiro recebido:")
+   leia(valorRecebido)
+
+   se valorRecebido  >= (precoProduto * quantidadeComprada) entao
+
+      valorTroco <- valorRecebido - (precoProduto * quantidadeComprada)
+   senão
+      valorResto <- (precoProduto * quantidadeComprada) - valorRecebido
+
+      escreval("Dinheiro Insuficiente. Faltam ", valorResto:4:2, " Reais")
+
+   fimse
+
+
+
+Fimalgoritmo

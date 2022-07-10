@@ -1,0 +1,31 @@
+Algoritmo "Teste condicional_ encadeamento"
+
+
+Var
+
+   hora :inteiro
+
+Inicio
+   //estrutura condicional composta: se, então, senão.
+   escreva("Digite uma hora do dia:")
+   leia(hora)
+
+   se hora < 12 então
+      escreval("Bom dia")
+   senão
+
+      se (hora >= 12) e (<= 18) então
+         escreval ("Boa tarde")
+      senão
+         escreval ("Boa noite")
+
+      fimse
+   fimse
+
+
+
+Fimalgoritmo
+
+// REGRA: se a estrutura for verdaderia V:executa o bloco de comandos.
+// se a estrutura for F: pula o bloco de comandos.
+// fimse: fim da estrutura condicional.

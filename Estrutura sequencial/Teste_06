@@ -1,0 +1,29 @@
+Algoritmo "Teste"
+
+Var
+
+   idade:inteiro
+   salario1, salario2: real
+   nome: caractere
+
+
+Inicio
+
+   escreva("Digite seu nome: ")
+   leia(nome)   //comando leia deixa o programa paradado esperando para digitar algum dado.
+   escreva("Digite sua idade: ")
+   leia(idade)
+   escreval("Digite quanto voce ganhou nos ultimos meses: ")
+   leia(salario1)
+   leia(salario2)
+   
+   
+   
+   
+   escreval("DADOS DIGITADOS: ")
+   escreval("Nome ", nome)
+   escreval("idade", idade)
+   escreval("salario 1 = ", salario1:8:2)
+   escreval("salario 2 = ", salario2:8:2)
+
+Fimalgoritmo

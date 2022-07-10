@@ -1,0 +1,24 @@
+Algoritmo "Funções Matematicas"
+
+Var
+
+   x, y, z, a, b, c, d : real
+
+
+Inicio
+
+   x <- 2.0
+   y <- 3.0
+   z <- -7.0
+
+   a <- Exp(x, y) // Exp: x elevado a y e o resultado vai jogar na variavel a.
+   b <- RaizQ(y)   // RaizQ: calcula a raiz da variavel de y, e guarda na variavel b.
+   c <- Pi  // variavel c recerber a função Pi.
+   d <- Abs(z)   // variavel d receber o valor absoluto de z.
+
+   escreval(a)
+   escreval(b)
+   escreval(c)
+   escreval(d)
+
+Fimalgoritmo

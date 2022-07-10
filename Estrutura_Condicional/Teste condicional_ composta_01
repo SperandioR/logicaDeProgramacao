@@ -1,0 +1,23 @@
+Algoritmo "Teste condicional_ Senão"
+
+
+Var
+
+     hora :inteiro
+
+Inicio
+      //estrutura condicional composta: se, então, senão.
+     escreva("Digite uma hora do dia:")
+     leia(hora)
+
+     se hora < 12 então
+        escreval("Bom dia")
+     senão
+        escreval("Boa tarde")
+     fimse  // fim da estrutura condicional.
+
+
+Fimalgoritmo
+
+// REGRA: se a estrutura for verdaderia V:executa o bloco de comandos.
+// se a estrutura for F: pula o bloco de comandos.

@@ -1,0 +1,17 @@
+Algoritmo "Teste"
+
+Var
+
+   a, b, resultado:inteiro
+
+Inicio
+
+      a <- 5
+      b <- 2
+      resultado <- a \ b       // com a divisão / da ERRO. Com a barra invertida faz a divisão com o resultado de numero inteiro
+      
+
+      escreval(resultado)
+
+
+Fimalgoritmo

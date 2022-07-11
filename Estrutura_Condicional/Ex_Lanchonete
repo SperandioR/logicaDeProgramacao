@@ -1,0 +1,38 @@
+Algoritmo "Ex_Lanchonete"
+
+Var
+
+   codigoProduto, quantidadeComprado : inteiro
+   valorPago : real
+
+Inicio
+   escreva("Código do produto comprado:")
+   leia(codigoProduto)
+
+   escreva("Quantidade comprado:")
+   leia(quantidadeComprado)
+
+   escolha codigoProduto
+   caso 1
+      valorPago <- 5.00 * quantidadeComprado
+   caso 2
+      valorPago <- 3.50 * quantidadeComprado
+   caso 3
+      valorPago <- 4.80 * quantidadeComprado
+   caso 4
+      valorPago <- 8.90 * quantidadeComprado
+   caso 5
+      valorPago <- 7.32 * quantidadeComprado
+   fimescolha
+
+   escreval("Valor Pago: R$ ", valorPago:4:2)
+
+
+Fimalgoritmo
+
+// Código do produto | Preço do produto
+ //       1                R$ 5.00
+ //       2                R$ 3.50
+ //       3                R$ 4.80
+ //       4                R$ 8.90
+ //       5                R$ 7.32

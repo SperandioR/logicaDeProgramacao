@@ -1,0 +1,21 @@
+Algoritmo "Ex_01"
+     //testes de mesa enquanto
+Var
+
+    x, y: inteiro
+
+Inicio
+
+   x <- 5
+   y <- 0
+
+   Enquanto x > 2 faca
+   Escreva(x)
+   
+   y <- y + x
+   x <- x - 1
+   
+   fimenquanto
+
+
+Fimalgoritmo

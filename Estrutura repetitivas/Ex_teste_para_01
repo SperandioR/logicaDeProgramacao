@@ -1,0 +1,16 @@
+Algoritmo "Ex_teste_para_01"
+
+Var
+
+   i:inteiro
+
+Inicio
+
+   para i de 1 ate 10 faca
+      escreval("Valor de i:", i)
+
+   fimpara
+
+
+
+Fimalgoritmo

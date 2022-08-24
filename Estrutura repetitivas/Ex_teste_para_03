@@ -1,0 +1,24 @@
+Algoritmo "Ex_teste_para_03"
+
+Var
+
+   N, i, x, soma:inteiro
+
+Inicio
+
+   escreva("Quantos número serão digitados? ")
+   leia(N)
+
+   soma <- 0
+
+   para i de 1 ate N faca
+      escreva("Digite um número:")
+      leia(x)
+      soma <- soma + x
+   fimpara
+   
+   escreval("soma = ", soma)
+
+
+
+Fimalgoritmo

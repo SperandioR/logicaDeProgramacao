@@ -14,7 +14,7 @@ Inicio
    leia(C)
 
    areaQuadrado <- A * A
-   áreaTriângulo <- (A * B) / 2         //espressão aritimética
+   áreaTriângulo <- (A * B) / 2         //expressão aritméticas.
    areaTrapezio <- (A + B) / 2 * C
 
    escreval("QUADRADO = ", areaQuadrado:10:4)
